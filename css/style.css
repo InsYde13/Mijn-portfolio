@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #2F180E;
+    --secundairy-color: #07CF75;
+    --background-color: #E6F9F0;
+    --text-color: #733F2B;
+
+}
+
+.highlight {
+    color: #5703b7 ;
+}
+.accent {
+    color: #920000;
+}
+
+
+header {
+    background-color: var(--secundairy-color);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color:var(--background-color);
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    
+}
+
+h1 {
+    color: var(--primary-color);
+  
+}
+
+h2 {
+    color: var(--text-color);
+    
+}
+p {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+ol {
+    color: var(--text-color);
+    font-size: 16px;
+}
+ul {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.projectkaart {
+    padding: 10px;
+    border: 5px solid #07CF75;
+    margin: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.projectkaarten {
+    display: flex;
+    gap: 75px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .projectkaarten {
+        flex-direction: column;
+    }
+}
+
+footer {   
+     background-color:#F7CF97;
+     border-top: 3px solid #963a04;
+     color: #054304;
+    }
+
